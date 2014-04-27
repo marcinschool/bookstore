@@ -14,6 +14,7 @@ body {
 		padding: 3px;
 	}
 	#top .user {
+		width: 200px;
 		float: right;
 	}
 .over {
@@ -37,7 +38,7 @@ body {
 		padding: 50px;
 		background-color: #EEEEEE;
 	}
-		#content .register input[type=text], #content .register input[type=password] {
+		#content .register input[type=text], #content .register input[type=password], #content .register select {
 			width: 300px;
 			margin-left: 50px;
 		}

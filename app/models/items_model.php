@@ -7,6 +7,18 @@ class Items_Model extends Model {
 		$res = $this->query($query);
 		return $res;
 	}
+
+	public function getProdukty($gatunek = 0) {
+		if($gatunek == 0) {
+			$query = "SELECT * FROM ksiazka";
+		} else {
+			$gatunek = $this->toInt($gatunek);
+			$query = "SELECT * FROM ksiazka WHERE id_gatunku=".$gatunek;
+		}
+
+		$res = $this->query($query);
+		return $res;
+	}
 }
 
 ?>

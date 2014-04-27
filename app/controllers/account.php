@@ -88,7 +88,7 @@ class Account extends Controller {
 
 			if($user_id > 0) {
 				$_SESSION['user_id'] = $user_id;
-				//$this->redirect();
+				$this->redirect("index.php");
 			} else {
 				$template = $this->loadView('account_login_view');
 				$template->set('error', 'Email lub Hasło nie jest poprawne');

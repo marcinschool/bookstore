@@ -9,6 +9,7 @@
 			    	<tr><td>Email</td><td><input type="text" name="email"></td></tr>
 			    	<tr><td>Hasło</td><td><input type="password" name="haslo"></td></tr>
 			    	<tr><td>Powtórz Hasło</td><td><input type="password" name="haslo2"></td></tr>
+			    	<tr><td>Kim jestes:</td><td><select name="rola"><option value="1">Klient</option><option value="2">Hurtownik</option></select></td></tr>
 			    	<tr><td colspan="2"><input class="btn btn-success" type="submit" name="register" value="Rejestruj"></td></tr>
 			    </table>
 		    </form>
